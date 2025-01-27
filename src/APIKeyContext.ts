@@ -1,6 +1,6 @@
 import { createContext } from "react";
-import { key } from "../key.json";
+import { stocks_key } from "../key.json";
 
-const APIKeyContext = createContext(key);
+const APIKeyContext = createContext(stocks_key);
 
 export default APIKeyContext;
